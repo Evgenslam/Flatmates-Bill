@@ -1,1 +1,29 @@
-files/design.txt
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+*.pyc
+
+# IDE or Editor-specific files
+.vscode/
+.idea/
+
+# Logs and Databases
+*.log
+*.sqlite
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+
+# Caches
+*.cache
+
+.env

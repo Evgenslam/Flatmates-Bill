@@ -6,3 +6,6 @@ idna==2.10
 requests==2.23.0
 trafaret==2.0.2
 urllib3==1.25.11
+flask==3.0.0
+wtforms==3.1.0
+python-dotenv==1.0.0
