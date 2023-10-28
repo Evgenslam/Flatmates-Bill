@@ -8,7 +8,7 @@
 </head>
 <body>
 <h2>Fill the form and click submit</h2>>    
-<form action="/result" method="post">
+<form action="/bill" method="post">
     {{bill_form.amount.label}}{{bill_form.amount}}
     <br>
     {{bill_form.period.label}}{{bill_form.period}}
@@ -29,6 +29,15 @@
 
     <br>
     {{bill_form.button}}
+
+    {% if result %}
+
+    <br>
+    {{name1}} pays {{amount1}}
+    <br>
+    {{name2}} pays {{amount2}}
+
+    {% endif %}
 
 </form>>
 </body>

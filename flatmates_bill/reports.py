@@ -43,6 +43,8 @@ class PDFReport:
         os.chdir('pdfreports')
         pdf.output(self.filename)
         webbrowser.open(self.filename)
+        os.chdir('../')
+
 
 class FileSharer:
 
